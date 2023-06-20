@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Admin-facade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AdminManager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Discovery/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FinanceManager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FinanceManager/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InvestmentManager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/User-facade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/UserManager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/UserManager/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

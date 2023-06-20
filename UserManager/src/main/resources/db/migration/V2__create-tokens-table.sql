@@ -1,0 +1,10 @@
+CREATE TABLE tokens_table (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  token VARCHAR(255) NOT NULL,
+  token_type VARCHAR(50) NOT NULL,
+  expired BOOLEAN DEFAULT FALSE,
+  revoked BOOLEAN DEFAULT FALSE,
+  user_id INT NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES users (id)
+);
+

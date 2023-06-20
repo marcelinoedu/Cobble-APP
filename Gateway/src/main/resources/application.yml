@@ -1,0 +1,8 @@
+
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: Gateway
+  config:
+    import: optional:configserver:http://localhost:8888

@@ -1,0 +1,42 @@
+eureka:
+  instace:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+spring:
+  application:
+    name: FinanceManager
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/db_finance-manager
+    username: root
+    password: 30092002
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+server:
+  port: 8081
+jwt:
+  secret:
+    key: 46294A404E635266556A586E3272357538782F413F4428472D4B6150645367566B5970337336763979244226452948404D6251655468576D5A7134743777217A
+
+
+zipkin:
+  base-url: http://localhost:9411
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
+

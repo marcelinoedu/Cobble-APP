@@ -1,0 +1,12 @@
+CREATE TABLE incomes (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NULL,
+  name VARCHAR(20) NOT NULL,
+  amount NUMERIC(10,2) NOT NULL,
+  description VARCHAR(255) NOT NUll,
+  category VARCHAR(20) NOT NULL,
+  deadline DATE NOT NULL,
+  received BOOLEAN NULL,
+  received_at TIMESTAMP NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
