@@ -1,4 +1,4 @@
-package com.facade.userfacade.data;
+package com.facade.userfacade.data.User.Info;
 
 import lombok.Builder;
 import lombok.Data;

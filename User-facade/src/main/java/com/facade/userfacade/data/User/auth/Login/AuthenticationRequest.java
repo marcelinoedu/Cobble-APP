@@ -1,4 +1,4 @@
-package com.facade.userfacade.data.auth;
+package com.facade.userfacade.data.User.auth.Login;
 
 
 import lombok.AllArgsConstructor;

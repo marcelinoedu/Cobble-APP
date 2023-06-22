@@ -35,13 +35,12 @@ public class ApiGatewayAuthFilter extends AbstractGatewayFilterFactory<ApiGatewa
                 } try {
                    template.getForObject("http://localhost:8889/auth/validate-token?token=" + "Bearer " + authHeader, String.class);
                 } catch (Exception e) {
-                    throw new ResponseStatusException(HttpStatus.UNAUTHORIZED);
+                    throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Não Autorizado!");
                 }
             }
             return chain.filter(exchange);
         });
     }
-
     public static class Config{
     }
 }
